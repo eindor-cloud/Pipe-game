@@ -1,9 +1,8 @@
-﻿OOP ex 4
+﻿
 __Pipe_game__
 //----------------------------------------------------------------------------
-2. Creators:
+2. Creator:
 a- Amit Ein-Dor   ID 208625681
-b- Adi Gutman     ID 318166600
 //----------------------------------------------------------------------------
 3. General ideas and goals of ex.4:
 A Pipe game which draw every pipe connected to the source
@@ -44,7 +43,7 @@ and every object has its list of neighbors
 6. Algorithems that are worth mentioning:
 - DFS on the graph:
 	*converting each valid route into a neighbor list (as stated before).
-	*by using RTTI we start the DFS only from a source object.
+	*by using RTTI I start the DFS only from a source object.
 	*the DFS will activate water flow through all of the objects that their 
      (graph)distance from the source isnt infinity (connect all object in route).
 //----------------------------------------------------------------------------
